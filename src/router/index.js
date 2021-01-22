@@ -4,8 +4,11 @@ import Home from "../views/Home.vue";
 import frontend from "../views/frontend.vue";
 import backend from "../views/backend.vue";
 import devOps from "../views/devOps.vue";
+import dataScience from "../views/dataScience.vue";
 import videos from "../views/videos.vue";
 import webDevelopment from "../views/webDevelopment.vue";
+import machineLearning from "../views/machineLearning.vue";
+import programming from "../views/programming.vue";
 
 Vue.use(VueRouter);
 
@@ -19,6 +22,16 @@ const routes = [
     path: "/webDevelopment",
     name: "webDevelopment",
     component: webDevelopment
+  },
+  {
+    path: "/machineLearning",
+    name: "machineLearning",
+    component: machineLearning
+  },
+  {
+    path: "/programming",
+    name: "programming",
+    component: programming
   },
   {
     path: "/videos",
@@ -39,6 +52,11 @@ const routes = [
     path: "/webDevelopment/devOps",
     name: "devOps",
     component: devOps
+  },
+  {
+    path: "/machineLearning/dataScience",
+    name: "dataScience",
+    component: dataScience
   }
 ];
 

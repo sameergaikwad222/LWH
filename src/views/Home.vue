@@ -48,7 +48,7 @@
         </v-hover>
         <v-hover v-slot="{ hover }" close-delay="200">
           <v-card
-            to="machineLearning"
+            to="/machineLearning"
             max-width="480"
             max-height="565"
             :elevation="hover ? 22 : 2"
