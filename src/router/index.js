@@ -6,6 +6,7 @@ import backend from "../views/backend.vue";
 import devOps from "../views/devOps.vue";
 import dataScience from "../views/dataScience.vue";
 import videos from "../views/videos.vue";
+import listVideoPage from "../views/listVideoPage.vue";
 import webDevelopment from "../views/webDevelopment.vue";
 import machineLearning from "../views/machineLearning.vue";
 import programming from "../views/programming.vue";
@@ -32,6 +33,11 @@ const routes = [
     path: "/programming",
     name: "programming",
     component: programming
+  },
+  {
+    path: "/videos/list/:topic",
+    name: "listVideoPage",
+    component: listVideoPage
   },
   {
     path: "/videos",

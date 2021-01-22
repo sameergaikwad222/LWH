@@ -22,14 +22,24 @@
                         <span class="text-capitalize text-h5 mr-5"
                           >{{ subTopic.name }} Development</span
                         >
-                        <v-btn text color="accent" class="text-captalize"
+                        <v-btn
+                          text
+                          color="accent"
+                          class="text-captalize"
+                          :to="{
+                            name: 'listVideoPage',
+                            params: { topic: subTopic.name }
+                          }"
                           >explore</v-btn
                         >
                       </div>
                       <v-container
                         class="d-flex flex-column content-row flex-xl-row flex-lg-row justify-space-around"
                       >
-                        <v-card v-for="(vid, k) in subTopic.vids" :key="k">
+                        <v-card
+                          v-for="(vid, k) in subTopic.vids.slice(0, limit)"
+                          :key="k"
+                        >
                           <iframe
                             :style="{
                               width: isMobileDevice ? '100%' : '560px'
@@ -58,6 +68,7 @@
 export default {
   data() {
     return {
+      limit: 3,
       videos: [
         {
           cat: "webDevelopment",

@@ -1,5 +1,5 @@
 <template>
-  <v-container class="py-12 fill-height">
+  <v-container class="py-12 fill-height main-container">
     <section>
       <v-container class="fill-height frontend">
         <v-row class="fill-height d-flex">
@@ -38,7 +38,7 @@
             >
               <v-img
                 class="pa-12"
-                src="@/assets/machineLearning/machineLearning.svg"
+                src="@/assets/programming/programming.svg"
               ></v-img>
             </v-card>
           </v-col>
