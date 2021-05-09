@@ -70,13 +70,13 @@ export default {
             "What is Hosting ?"
           ],
           status: 25,
-          urls: ["/videos/internet", "/forums/internet"]
+          urls: ["/videos/webDevelopment/internet", "/forums/internet"]
         },
         {
           title: "Basic Frontend Knowledge",
           items: ["HTML", "CSS", "Javascript"],
           status: 75,
-          urls: ["/videos/frontend", "/forums/frontend"]
+          urls: ["/videos/webDevelopment/frontend", "/forums/frontend"]
         },
         {
           title: "OS & General Knowledge",
@@ -92,13 +92,16 @@ export default {
             "Basic Networking"
           ],
           status: 45,
-          urls: ["/videos/os&gk", "/forums/os&gk"]
+          urls: ["/videos/webDevelopment/os&gk", "/forums/os&gk"]
         },
         {
           title: "Language",
           items: ["Java", "C#", "PHP", "Javascript", "Python", "Ruby"],
           status: 45,
-          urls: ["/videos/backend/languages", "/forums/backend/languages"]
+          urls: [
+            "/videos/webDevelopment/backend/languages",
+            "/forums/backend/languages"
+          ]
         },
         {
           title: "Git",
@@ -109,19 +112,22 @@ export default {
             "Docker"
           ],
           status: 45,
-          urls: ["/videos/git", "/forums/git"]
+          urls: ["/videos/webDevelopment/git", "/forums/git"]
         },
         {
           title: "Relational Databases",
           items: ["PostgreSQL", "MySQL", "Maria DB", "Oracle DB", "MS SQL"],
           status: 45,
-          urls: ["/videos/databases", "/forums/databases"]
+          urls: ["/videos/webDevelopment/databases", "/forums/databases"]
         },
         {
           title: "APIs",
           items: ["REST", "JSON APIs", "SOAP", "OAuth", "Authentication"],
           status: 45,
-          urls: ["/videos/packageManagers", "/forums/packageManagers"]
+          urls: [
+            "/videos/webDevelopment/packageManagers",
+            "/forums/packageManagers"
+          ]
         },
         {
           title: "Web Securities",
@@ -131,13 +137,19 @@ export default {
             "Learn CORS concept"
           ],
           status: 45,
-          urls: ["/videos/webSecurities", "/forums/webSecurities"]
+          urls: [
+            "/videos/webDevelopment/webSecurities",
+            "/forums/webSecurities"
+          ]
         },
         {
           title: "Testing",
           items: ["Integration Testing", "Unit Testing", "Functional Testing"],
           status: 45,
-          urls: ["/videos/backend/testing", "/forums/backend/testing"]
+          urls: [
+            "/videos/webDevelopment/backend/testing",
+            "/forums/backend/testing"
+          ]
         }
       ],
       colors: ["red", "blue", "purple", "green", "yellow", "orange", "amber"]

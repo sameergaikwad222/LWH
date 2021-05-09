@@ -70,7 +70,7 @@ export default {
             "What is Hosting ?"
           ],
           status: 25,
-          urls: ["/videos/internet", "/forums/internet"]
+          urls: ["/videos/webDevelopment/internet", "/forums/internet"]
         },
         {
           title: "HTML",
@@ -80,7 +80,7 @@ export default {
             "Convetions & Best Practices"
           ],
           status: 75,
-          urls: ["/videos/html", "/forums/html"]
+          urls: ["/videos/webDevelopment/html", "/forums/html"]
         },
         {
           title: "CSS",
@@ -91,7 +91,7 @@ export default {
             "Learn Advance SCSS preprocessors"
           ],
           status: 45,
-          urls: ["/videos/css", "/forums/css"]
+          urls: ["/videos/webDevelopment/css", "/forums/css"]
         },
         {
           title: "JavaScript",
@@ -103,7 +103,7 @@ export default {
             "Advance Concepts like Hoisting, Event Bubbling, Scope, Prototype, ShadowDOM, strict"
           ],
           status: 45,
-          urls: ["/videos/javascript", "/forums/javascript"]
+          urls: ["/videos/webDevelopment/javascript", "/forums/javascript"]
         },
         {
           title: "Git",
@@ -113,7 +113,7 @@ export default {
             "Forking Repo & Branch Control & piping"
           ],
           status: 45,
-          urls: ["/videos/git", "/forums/git"]
+          urls: ["/videos/webDevelopment/git", "/forums/git"]
         },
         {
           title: "Web Securities",
@@ -123,13 +123,19 @@ export default {
             "Learn CORS concept"
           ],
           status: 45,
-          urls: ["/videos/webSecurities", "/forums/webSecurities"]
+          urls: [
+            "/videos/webDevelopment/webSecurities",
+            "/forums/webSecurities"
+          ]
         },
         {
           title: "Package Managers",
           items: ["npm package manager", "yarn package manager"],
           status: 45,
-          urls: ["/videos/packageManagers", "/forums/packageManagers"]
+          urls: [
+            "/videos/webDevelopment/packageManagers",
+            "/forums/packageManagers"
+          ]
         }
       ],
       colors: ["red", "blue", "purple", "green", "yellow", "orange", "amber"]

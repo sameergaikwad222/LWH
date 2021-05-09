@@ -24,8 +24,17 @@
               courses available.
             </p>
             <v-container class="d-flex justify-center">
-              <v-btn text class="accent" to="/videos/programming"
-                >Hit RoadMap</v-btn
+              <v-btn
+                text
+                class="accent mr-4"
+                to="/videos/programmingLanguage/programming"
+                >Browse Videos</v-btn
+              >
+              <v-btn
+                text
+                class="accent"
+                to="/forums/programmingLanguage/programming"
+                >Browse Forums</v-btn
               >
             </v-container>
           </v-col>

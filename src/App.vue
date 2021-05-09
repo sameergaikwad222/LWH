@@ -11,6 +11,9 @@
         </v-container>
 
         <v-container>
+          <v-btn icon class="my-2 mx-auto" x-large to="/dashboard">
+            <v-icon>mdi-view-dashboard</v-icon>
+          </v-btn>
           <v-btn icon class="my-2 mx-auto" x-large to="/videos">
             <v-icon x-large>
               mdi-youtube

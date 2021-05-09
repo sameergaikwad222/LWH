@@ -1,12 +1,13 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+import dashboard from "../views/dashboard.vue";
 import frontend from "../views/frontend.vue";
 import backend from "../views/backend.vue";
 import devOps from "../views/devOps.vue";
 import dataScience from "../views/dataScience.vue";
 import videos from "../views/videos.vue";
-import listVideoPage from "../views/listVideoPage.vue";
+import courseVideos from "../views/courseVideos.vue";
 import webDevelopment from "../views/webDevelopment.vue";
 import machineLearning from "../views/machineLearning.vue";
 import programming from "../views/programming.vue";
@@ -18,6 +19,11 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home
+  },
+  {
+    path: "/dashboard",
+    name: "dashboard",
+    component: dashboard
   },
   {
     path: "/webDevelopment",
@@ -35,14 +41,14 @@ const routes = [
     component: programming
   },
   {
-    path: "/videos/list/:topic",
-    name: "listVideoPage",
-    component: listVideoPage
-  },
-  {
     path: "/videos",
     name: "videos",
     component: videos
+  },
+  {
+    path: "/videos/:course",
+    name: "courseVideos",
+    component: courseVideos
   },
   {
     path: "/webDevelopment/frontend",

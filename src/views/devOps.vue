@@ -63,7 +63,7 @@ export default {
           title: "Learn Any Programming Language",
           items: ["Python", "Ruby", "Rust", "C#", "NodeJs", "Go", "C"],
           status: 25,
-          urls: ["/videos/devOps", "/forums/devOps"]
+          urls: ["/videos/webDevelopment/devOps", "/forums/devOps"]
         },
         {
           title: "OS & General Knowledge",
@@ -79,13 +79,13 @@ export default {
             "Basic Networking"
           ],
           status: 45,
-          urls: ["/videos/os&gk", "/forums/os&gk"]
+          urls: ["/videos/webDevelopment/os&gk", "/forums/os&gk"]
         },
         {
           title: "Managing Servers",
           items: ["Different OS servers", "Learn Terminal"],
           status: 45,
-          urls: ["/videos/terminal", "/forums/terminal"]
+          urls: ["/videos/webDevelopment/terminal", "/forums/terminal"]
         },
         {
           title: "Web Securities",
@@ -95,7 +95,10 @@ export default {
             "Learn CORS concept"
           ],
           status: 45,
-          urls: ["/videos/webSecurities", "/forums/webSecurities"]
+          urls: [
+            "/videos/webDevelopment/webSecurities",
+            "/forums/webSecurities"
+          ]
         },
         {
           title: "Webservers & Application servers",
@@ -107,7 +110,7 @@ export default {
             "Firewall"
           ],
           status: 65,
-          urls: ["/videos/webservers", "/forums/webservers"]
+          urls: ["/videos/webDevelopment/webservers", "/forums/webservers"]
         },
         {
           title: "Infrastructre as Code",
@@ -118,7 +121,7 @@ export default {
             "Infrastructure Provisioning"
           ],
           status: 65,
-          urls: ["/videos/IaC", "/forums/IaC"]
+          urls: ["/videos/webDevelopment/IaC", "/forums/IaC"]
         },
         {
           title: "CI & CD Tools",
@@ -133,7 +136,7 @@ export default {
             "TeamCity"
           ],
           status: 65,
-          urls: ["/videos/CI&CD", "/forums/CI&CD"]
+          urls: ["/videos/webDevelopment/CI&CD", "/forums/CI&CD"]
         },
         {
           title: "Monitoring",
@@ -143,13 +146,13 @@ export default {
             "Logs Management"
           ],
           status: 65,
-          urls: ["/videos/monitoring", "/forums/monitoring"]
+          urls: ["/videos/webDevelopment/monitoring", "/forums/monitoring"]
         },
         {
           title: "Cloud Providers",
           items: ["Digital Ocean", "Linode", "Vultr"],
           status: 65,
-          urls: ["/videos/monitoring", "/forums/monitoring"]
+          urls: ["/videos/webDevelopment/monitoring", "/forums/monitoring"]
         }
       ],
       colors: ["red", "blue", "purple", "green", "yellow", "orange", "amber"]
